@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Grid navigation agent: deterministic and Bayesian",
+    "description": "A planner plus a Bayesian agent that reasons about hazards from noisy sensors. Includes a replay viewer and a live in-browser mode that runs the real Python agent with Pyodide.",
+    "repo": "https://github.com/Adithya7664/CS_F407_2026_0144_0227_1257_1362_1365",
+    "demo": "https://adithya7664.github.io/CS_F407_2026_0144_0227_1257_1362_1365/",
+    "tags": ["Python", "Bayesian inference", "search", "Pyodide"]
+  }
+]
