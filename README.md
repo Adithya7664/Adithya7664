@@ -18,8 +18,8 @@ Computer science student at **BITS Pilani, Hyderabad**, building towards **AI / 
 ## Right now
 
 <!-- NOW:START -->
-- 🔨 Building: a Vision Transformer with masked-autoencoder pre-training on Galaxy Zoo
-- 📚 Learning: transformers and self-supervised learning
+- 🔨 Building: a Vision Transformer with masked-autoencoder pre-training on Galaxy Zoo, along with supervised vision transformer with labels masked
+- 📚 Learning: transformers and self-supervised learning, GitHub actions, Computer vision and WebGL
 - 🎯 Looking for: AI / ML engineering roles
 <!-- NOW:END -->
 
@@ -36,6 +36,16 @@ A planner plus a Bayesian agent that reasons about hazards from noisy sensors. I
 ## Recently updated
 
 <!-- REPOS:START -->
+- [**CS_F407_2026_0144_0227_1257_1362_1365**](https://github.com/Adithya7664/CS_F407_2026_0144_0227_1257_1362_1365) - Intelligent agent  
+  <sub>Python · updated 2026-11-09</sub>
+- [**VIT-Galaxy-Zoo**](https://github.com/Adithya7664/VIT-Galaxy-Zoo)  
+  <sub>Python · updated 2026-11-09</sub>
+- [**CS_F407_2026_20230144_20221257_20221362_20221365**](https://github.com/Adithya7664/CS_F407_2026_20230144_20221257_20221362_20221365) - AI assignment 2  
+  <sub>Python · updated 2026-10-13</sub>
+- [**2048_AI_Game**](https://github.com/Adithya7664/2048_AI_Game) - 2048 game powered by ai with custom animations/themes/ui  
+  <sub>Python · updated 2026-09-16</sub>
+- [**PyQt5-Photo-editor**](https://github.com/Adithya7664/PyQt5-Photo-editor) - A photo editor using pyqt5  
+  <sub>Python · updated 2026-09-07</sub>
 <!-- REPOS:END -->
 
 <sub>Sections above refresh automatically with a GitHub Action. See `scripts/update_readme.py`.</sub>
