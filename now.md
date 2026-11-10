@@ -1,3 +1,3 @@
-- 🔨 Building: a Vision Transformer with masked-autoencoder pre-training on Galaxy Zoo
-- 📚 Learning: transformers and self-supervised learning
+- 🔨 Building: a Vision Transformer with masked-autoencoder pre-training on Galaxy Zoo, along with supervised vision transformer with labels masked
+- 📚 Learning: transformers and self-supervised learning, GitHub actions, Computer vision and WebGL
 - 🎯 Looking for: AI / ML engineering roles
