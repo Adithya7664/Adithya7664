@@ -1,51 +1,42 @@
-# Hi, I'm Adithya 👋
+# Hi, I'm Adithya
 
-Computer science student at **BITS Pilani, Hyderabad**, building towards **AI / ML engineering**. I like making things that work end to end: a model, the code around it, and a page you can actually click.
+CS undergrad at BITS Pilani Hyderabad, working towards AI/ML engineering. I build projects alone, end to end: data, model, evaluation, and a deployed demo where it makes sense. Each repo's README has the details and results, so this page is just the map.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meduri-adithya-326a68333)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/Adithya7664)
+Currently: ML modelling on an internship at InMobi, and a small transformer + reinforcement-learning project (tiny GPT from scratch, then Q-learning / SARSA on a grid and a Decision Transformer).
 
-## Tech I use
+## Projects
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+### Machine learning
+| Project | What it is | Links |
+|---|---|---|
+| **Galaxy Zoo: ViT + MAE** | Vision Transformer and masked autoencoder written from scratch in PyTorch, pre-trained without labels on Galaxy Zoo and evaluated with a linear probe against a supervised baseline. | [Repo](https://github.com/Adithya7664/VIT-Galaxy-Zoo) · [Live explorer](https://vit-galaxy-zoo-sy7vlckgssw7s9h9ykgvdy.streamlit.app/) |
+| **BARC: power-grid contingency GNN** | Simulates single-element outages on IEEE bus systems (pandapower), turns each into a graph, and trains an edge-conditioned GNN (PyTorch Geometric) to flag critical elements. Tested on a 118-bus system at a load not used in training. | [Repo](https://github.com/Adithya7664/ML-project) |
+| **Exoplanet Habitability Explorer** | Earth Similarity Index on NASA Exoplanet Archive data, four models benchmarked, SHAP explanations, Streamlit app and a Three.js 3D planet renderer. | [Repo](https://github.com/Adithya7664/Exoplanet-Habitability-Website) · [Live app](https://exoplanet-habitability-website-sthvjpfpl9ucwqvpdedmdd.streamlit.app/) |
+| **Semantic drone safe-zone detection** | Encoder-decoder segmentation with a ResNet backbone plus MiDaS depth, combined in a decision pipeline that outputs a safe drop zone as a bounding box. Built for a TU Graz course. | [Repo](https://github.com/Adithya7664/CS_F407_2026_20230144_20221257_20221362_20221365) |
 
-## Right now
+### Agents and reinforcement learning
+| Project | What it is | Links |
+|---|---|---|
+| **2048 RL agent + in-game AI tutor** | Maskable PPO agent (Stable-Baselines3) for a Flutter 2048 game, with a FastAPI tutor that explains each suggested move and a "watch AI play" mode. NumPy-only inference keeps the API small. | [Repo](https://github.com/Adithya7664/2048_AI_Game) · [Play it](https://adithya7664.github.io/2048_AI_Game/) |
+| **Wumpus World search agent** | A* planning with Bayesian inference over noisy stench and breeze readings, multi-objective scoring, replay viewer and in-browser live mode (Pyodide), tests and CI. | [Repo](https://github.com/Adithya7664/CS_F407_2026_0144_0227_1257_1362_1365) |
+| **LangGraph shape-matching agent** | LangGraph pipeline (hole detection, ring matching, probe under a tool-call budget) for a spatial puzzle harness. 12 of 15 seeds solved; the write-up covers the failure mode. | [Repo](https://github.com/Adithya7664/spatial-distractor-challenge) (see `NOTES.md`) |
 
-<!-- NOW:START -->
-- 🔨 Building: a Vision Transformer with masked-autoencoder pre-training on Galaxy Zoo, along with supervised vision transformer with labels masked
-- 📚 Learning: transformers and self-supervised learning, GitHub actions, Computer vision and WebGL
-- 🎯 Looking for: AI / ML engineering roles
-<!-- NOW:END -->
+### Tools
+| Project | What it is | Links |
+|---|---|---|
+| **PyQt5 photo editor** | Desktop editor with sliders, paint and erase, and a neural style-transfer panel. | [Repo](https://github.com/Adithya7664/PyQt5-Photo-editor) |
 
-## Featured projects
+### Smaller and earlier projects
+- **Multi-label disease prediction (ML course, group):** a pipeline over relational medical tables for patient-level multi-label prediction. Positives are rare, so the focus was the pipeline, not headline scores.
+- **2D floor planner (Java Swing):** drag and resize rooms, place furniture in a top view, save and reopen layouts, built around an extensible Room/Furniture object model.
+- **Company data scraper (Playwright):** automated PDF extraction of stipend, role and project data across 650 companies.
+- **Flight booking test automation (Appium):** small QA project automating a MakeMyTrip booking flow.
+- **Solar system renderer (Three.js, paused):** orbiting planets and a starfield; a side project I come back to for fun.
 
-<!-- FEATURED:START -->
-### Grid navigation agent: deterministic and Bayesian
-A planner plus a Bayesian agent that reasons about hazards from noisy sensors. Includes a replay viewer and a live in-browser mode that runs the real Python agent with Pyodide.
+## Stack
+**Languages:** Python, Java, C++, SQL, JavaScript
+**ML:** PyTorch, PyTorch Geometric, scikit-learn, LightGBM, SHAP, Stable-Baselines3, Gymnasium
+**Tools:** FastAPI, Docker, GitHub Actions, Streamlit, Flutter, Three.js, PyQt5, Git
 
-[Live demo](https://adithya7664.github.io/CS_F407_2026_0144_0227_1257_1362_1365/) · [Code](https://github.com/Adithya7664/CS_F407_2026_0144_0227_1257_1362_1365)  
-`Python` `Bayesian inference` `search` `Pyodide`
-<!-- FEATURED:END -->
-
-## Recently updated
-
-<!-- REPOS:START -->
-- [**BARC-GNN-Network-Project**](https://github.com/Adithya7664/BARC-GNN-Network-Project) - This is a machine learning project done on contingency analysis of power systems. It makes use of Graph Neural Networks, which also learns patterns and networks from the sorroundings.  
-  <sub>Jupyter Notebook · updated 2026-11-21</sub>
-- [**2048_AI_Game**](https://github.com/Adithya7664/2048_AI_Game) - 2048 game powered by ai with custom animations/themes/ui  
-  <sub>Dart · updated 2026-11-20</sub>
-- [**PyQt5-Photo-editor**](https://github.com/Adithya7664/PyQt5-Photo-editor) - A photo editor using pyqt5  
-  <sub>Python · updated 2026-11-19</sub>
-- [**Exoplanet-Habitability-Website**](https://github.com/Adithya7664/Exoplanet-Habitability-Website) - A interactive website built on the data of exoplanets containing different visualization components and a 3D planet renderer to interact with  
-  <sub>Python · updated 2026-11-19</sub>
-- [**CS_F407_2026_0144_0227_1257_1362_1365**](https://github.com/Adithya7664/CS_F407_2026_0144_0227_1257_1362_1365) - Intelligent agent  
-  <sub>Python · updated 2026-11-19</sub>
-<!-- REPOS:END -->
-
-<sub>Sections above refresh automatically with a GitHub Action. See `scripts/update_readme.py`.</sub>
+## Find me
+[LinkedIn](https://www.linkedin.com/in/meduri-adithya-326a68333)
