@@ -36,6 +36,8 @@ A planner plus a Bayesian agent that reasons about hazards from noisy sensors. I
 ## Recently updated
 
 <!-- REPOS:START -->
+- [**BARC-GNN-Network-Project**](https://github.com/Adithya7664/BARC-GNN-Network-Project) - This is a machine learning project done on contingency analysis of power systems. It makes use of Graph Neural Networks, which also learns patterns and networks from the sorroundings.  
+  <sub>Jupyter Notebook · updated 2026-11-21</sub>
 - [**2048_AI_Game**](https://github.com/Adithya7664/2048_AI_Game) - 2048 game powered by ai with custom animations/themes/ui  
   <sub>Dart · updated 2026-11-20</sub>
 - [**PyQt5-Photo-editor**](https://github.com/Adithya7664/PyQt5-Photo-editor) - A photo editor using pyqt5  
@@ -43,8 +45,6 @@ A planner plus a Bayesian agent that reasons about hazards from noisy sensors. I
 - [**Exoplanet-Habitability-Website**](https://github.com/Adithya7664/Exoplanet-Habitability-Website) - A interactive website built on the data of exoplanets containing different visualization components and a 3D planet renderer to interact with  
   <sub>Python · updated 2026-11-19</sub>
 - [**CS_F407_2026_0144_0227_1257_1362_1365**](https://github.com/Adithya7664/CS_F407_2026_0144_0227_1257_1362_1365) - Intelligent agent  
-  <sub>Python · updated 2026-11-19</sub>
-- [**VIT-Galaxy-Zoo**](https://github.com/Adithya7664/VIT-Galaxy-Zoo)  
   <sub>Python · updated 2026-11-19</sub>
 <!-- REPOS:END -->
 
